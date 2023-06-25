@@ -14,7 +14,6 @@ func NewInvestorAssetPosition(assetID string, shares int) *InvestorAssetPosition
 
 type Investor struct {
 	ID            string                   `json:"id"`
-	Name          string                   `json:"name"`
 	AssetPosition []*InvestorAssetPosition `json:"assetPosition"`
 }
 
